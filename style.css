@@ -1,7 +1,6 @@
 body{
     display: block;
-    background-color: #fff;
-    font-size: 24px;
-    line-height: 0%;
-    
+    background-color: black;
+    margin: auto;
+    padding: 20px;
 }
