@@ -1,8 +1,12 @@
 body{
     display: block;
-    background-color: black;
+    background-color:#fff;
     margin: auto;
     padding: 20px;
+
+}
+.txt-1{
+    background: #fff;
 }
 
 
