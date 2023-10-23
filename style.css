@@ -124,14 +124,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 140.625%; /* 30.938px */
 }
-.card_price{
-    color: #000;
-font-family: Roboto;
-font-size: 33px;
-font-style: normal;
-font-weight: 700;
-line-height: 152.344%; /* 50.273px */
-}
+
 .card_btn{
     color: var(--Black, #000);
 text-align: center;
