@@ -10,6 +10,85 @@ body{
     text-align: center;
     margin: 20px;
     padding: 30px;
+}*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+    font-family: 22px;
+    line-height: 1.2;
+    padding-top: 100px;
+}
+.container{
+    width: 100%;
+    min-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 128.906%;
+    margin-bottom: 10px;
+
+}
+.txt_sub{
+    text-align: center;
+    line-height: 152.344%;
+    margin-bottom: 100px;
+}
+.card_name{
+    color: #000;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 140.625%; /* 30.938px */
+}
+.card_price{
+    color: #000;
+font-family: Roboto;
+font-size: 33px;
+font-style: normal;
+font-weight: 700;
+line-height: 152.344%; /* 50.273px */
+}
+.card_btn{
+    color: var(--Black, #000);
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 140.625%; /* 25.313px */
+
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 48%;
+    transition: 0.5s;
+    border: 1px solid var(--Gray,#f6f6f6);
+    background: #fff;
+    margin-bottom: 30px;
+}
+.card:hover{
+    box-shadow: 0px 0px 18px 0px rgba(233,80,79,0.25);
+}
+.card:hover.card_btn{
+color: #fff;
+background: #2A94E2;
+}
+.card_img{
+    display: block;
+    width: 100%;
 }
 
 
