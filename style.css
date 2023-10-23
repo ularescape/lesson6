@@ -157,7 +157,7 @@ line-height: 140.625%; /* 25.313px */
 }
 .card:hover{
     box-shadow: 0px 0px 18px 0px rgba(233,80,79,0.25);
-}
+    
 .card:hover.card_btn{
 color: #fff;
 background: #2A94E2;
